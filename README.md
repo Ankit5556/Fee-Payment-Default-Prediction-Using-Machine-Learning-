@@ -1,10 +1,12 @@
 # Fee Payment Default Prediction System
 
 ### Overview  
-The Fee Payment Default Prediction System uses Machine Learning to identify students who are likely to delay fee payments or require payment reminders.  
+The **Fee Payment Default Prediction System uses Machine Learning** to identify students who are likely to delay fee payments or require payment reminders.  
 It analyzes student fee and admission data such as course details, total fee, paid fee, and balance, then predicts payment behavior using trained ML models.
 
-Features  
+---
+
+## Features  
 - Perform Exploratory Data Analysis (EDA) to understand fee payment patterns  
 - Data preprocessing including encoding, scaling, and feature engineering  
 - Handle class imbalance using SMOTE  
@@ -13,12 +15,15 @@ Features
 - Business rule integration for reminder decisions  
 - Final prediction & deployment using Streamlit web app  
 
-## Tech Stack  
-Language: Python  
-Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, joblib  
-Deployment: Streamlit  
+---
 
-## Project Structure  
+## Tech Stack  
+**Language**: Python  
+**Libraries**: pandas, numpy, scikit-learn, matplotlib, seaborn, joblib  
+**Deployment**: Streamlit  
+
+## Project Structure 
+```
 Fee_Payment_Default_Prediction/
 │  
 ├── data/  
@@ -47,56 +52,55 @@ Fee_Payment_Default_Prediction/
 ├── requirements.txt  
 ├── README.md  
 ├── LICENSE  
-└── .gitignore  
+└── .gitignore
+```
 
 ### Installation  
 
-## Step 1️⃣: Clone the repository  
-bash
+### Step 1️⃣: Clone the repository  
+```bash
 git clone https://github.com/your-username/Fee_Payment_Default_Prediction.git
 cd Fee_Payment_Default_Prediction
-Step 2️⃣: Install dependencies
+```
 
-bash
+### Step 2️⃣: Install dependencies
+```bash
 Copy code
 pip install -r requirements.txt
-Step 3️⃣: Run the Streamlit App
+```
 
+### Step 3️⃣: Run the Streamlit App
+```
 bash
 Copy code
 cd app
 streamlit run app.py
-Usage
+```
+### Usage
+1.Launch the Streamlit app
+2.Enter student admission and fee details
+3.Click on “Predict Payment Status”
+4.View delayed payment and reminder prediction instantly
 
-Launch the Streamlit app
+### Example Prediction
 
-Enter student admission and fee details
+| Total Fee | Paid Fee | Balance | Delayed Payment | Needs Reminder |
+|-----------|----------|---------|-----------------|----------------|
+|   10000   |   80000  |   2000  |     YES         |      NO        |
 
-Click on “Predict Payment Status”
-
-View delayed payment and reminder prediction instantly
-
-Example Prediction
-
-Total Fee	Paid Fee	Balance	Delayed Payment	Needs Reminder
-100000	60000	40000	Yes	Yes
-
-Future Enhancements
+### Future Enhancements
 
 SMS / Email reminder automation
-
-ERP system integration
-
-Cloud deployment (AWS / Streamlit Cloud)
-
-Mobile application support
-
-Student dropout prediction
+1.ERP system integration
+2.Cloud deployment (AWS / Streamlit Cloud)
+3.Mobile application support
+4.Student dropout prediction
 
 ## Author
-Ankit Jadhav
+**Ankit Jadhav**
 Data Science & Machine Learning Enthusiast
 www.linkedin.com/in/ankit-jadhav-5556ankit
 
 ## License
 This project is open-source under the MIT License.
+
