@@ -77,10 +77,10 @@ cd app
 streamlit run app.py
 ```
 ### Usage
-1.Launch the Streamlit app
-2.Enter student admission and fee details
-3.Click on “Predict Payment Status”
-4.View delayed payment and reminder prediction instantly
+- Launch the Streamlit app
+- Enter student admission and fee details
+- Click on “Predict Payment Status”
+- View delayed payment and reminder prediction instantly
 
 ### Example Prediction
 
@@ -91,16 +91,17 @@ streamlit run app.py
 ### Future Enhancements
 
 SMS / Email reminder automation
-1.ERP system integration
-2.Cloud deployment (AWS / Streamlit Cloud)
-3.Mobile application support
-4.Student dropout prediction
+- ERP system integration
+- Cloud deployment (AWS / Streamlit Cloud)
+- Mobile application support
+- Student dropout prediction
 
 ## Author
-**Ankit Jadhav**
-Data Science & Machine Learning Enthusiast
+  **Ankit Jadhav**
+  Data Science & Machine Learning Enthusiast
 www.linkedin.com/in/ankit-jadhav-5556ankit
 
 ## License
 This project is open-source under the MIT License.
+
 
